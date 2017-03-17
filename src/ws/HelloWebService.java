@@ -31,7 +31,7 @@ public class HelloWebService {
 		 * 参数1：服务的发布地址 
 		 * 参数2：服务的实现者
 		 */
-		Endpoint.publish("http://localhost:8080/helloWord", new HelloWebService());
+		Endpoint.publish("http://localhost:8080/HelloWordService", new HelloWebService());
 
 	}
 
